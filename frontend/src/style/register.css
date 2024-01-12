@@ -1,0 +1,101 @@
+.login_container{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    
+}
+.login_img{
+    width: 60%;
+}
+.login_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.input_form{
+    width: 40%;
+    padding: 1rem 2rem;
+    height: 350px;
+    position: relative;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+
+}
+.resgister_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.input_img{
+    
+}
+.input_img img{
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    transform: translate(-50% , -50% );     
+}
+.input_name{
+    margin-top: 2rem;
+    width: 90%;
+    border: 1px solid var(--heading-color);
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+.input_email{
+    width: 90%;
+    border: 1px solid var(--heading-color);
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+.input_password{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--heading-color);
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+input{
+    width: 70%;
+    outline: none;
+    padding: 0 0.5rem;
+    background-color:transparent !important;
+    border: none;
+
+}
+input:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color:transparent !important;
+}
+.input_btn{
+   padding: 0.3rem 1rem;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   background-color: var(--heading-color);
+   color: #fff;
+   font-size: 1.1rem;
+   font-weight: 500;
+   margin-top: 1rem;
+
+}
+.input_password span i{
+    font-size: 1.1rem;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid var(--secondary-color);
+  -webkit-text-fill-color: var(--secondary-color);
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,0 +1,36 @@
+.header_leading{
+    width: 100%;
+    height: 80px;
+    line-height:80px;
+}
+.logo img{
+    width: 30%;
+    margin-bottom:0px;
+}
+.menu{
+    margin-bottom: 0;
+}
+.nav_item a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.nav_item a:hover{
+    color: inherit;
+}
+.nav_item a.active_link{
+    color: var(--secondary-color);
+}
+.mobile_menu{
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+}
+.sticky_header{
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+    background-color: #fff;
+}

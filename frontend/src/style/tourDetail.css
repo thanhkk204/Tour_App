@@ -1,0 +1,123 @@
+.detail_img img {
+  width: 100%;
+  border-radius: 50px 3px 50px 3px;
+  box-shadow: 2px 0px 8px var(--text-color);
+}
+h2{
+    font-size: 1.5rem !important;
+}
+.detail_content {
+  border: 1px solid rgba(229, 231 , 235);
+  border-radius: 10px;
+  margin-top: 3rem;
+  padding: 1.5rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.detail_content_top {
+  display: flex;
+  gap: 7rem;
+}
+.detail_content_bottom {
+  display: flex;
+  gap: 7rem;
+}
+.location i{
+    font-size: 1.2rem;
+
+}
+.avgRating i{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+
+}
+.price i{
+    font-size: 1.2rem;
+
+}
+.groupPeople i{
+    font-size: 1.2rem;
+
+}
+/* Review  */
+.show_reviews{
+  width: 100%;
+  border: 1px solid rgba(229, 231 , 235);
+  border-radius: 10px;
+  margin-top: 3rem;
+  padding: 1.5rem 1.1rem;
+  gap: 1rem;
+  display: flex ;
+  flex-direction: column;
+  gap: 1rem;
+}
+.show_reviews h1{
+  font-size: 1.5rem;
+}
+.star_color{
+  color: var(--secondary-color);
+}
+.star_nonColor{
+  color: var(--text-color);
+}
+.review_submit{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 1.1rem 2rem;
+  border: 1px solid var(--text-color);
+  border-top: 1px solid var(--secondary-color);
+  border-radius: 50px;
+}
+.btn_submit{
+  padding: 0.3rem 1.5rem;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+
+}
+.btn_submit:hover{
+  color: var(--text-color);
+}
+.review_input{
+  width: 60%;
+  outline: none;
+  border: none;
+  color: var(---text-color);
+  font-size: 1.1rem;
+}
+.user_review{
+  margin-top: 2rem;
+
+}
+.user_review_item{
+  
+}
+.aboutUser{
+  position: relative;
+}
+.user_review_item .aboutUser img{
+  width: 4rem;
+}
+.user_review_item .aboutUser span{
+  position: absolute;
+  top: 40%;
+  right: 10px;
+}
+.m-100 h4{
+  font-size : 1.1rem;
+  font-weight: 500;
+}
+.m-100 p{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.userCmt h6{
+  color: var(--text-color);
+  margin-left: 5rem;
+}

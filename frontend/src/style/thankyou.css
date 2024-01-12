@@ -1,0 +1,21 @@
+
+.thank_you{
+    margin: 10rem 0 ;
+    flex-direction: column;
+
+}
+.title{
+    font-family: var(--subtitle-font-name);
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.title i{
+    font-size: 2.5rem;
+    color: green
+}
+.thank_you p{
+    font-size: 1.2rem ;
+    color: var(--text-color);
+}
